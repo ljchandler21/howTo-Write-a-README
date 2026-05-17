@@ -107,9 +107,9 @@ npm run arg1 arg2 arg3
 
 Explain the start arguments:
 
-- arg1 could be the number of ?
-- arg2 could be the username for system account
-- arg3 whatever you want it to be
+- `arg1` could be the number of ?
+- `arg2` could be the username for system account
+- `arg3` whatever you want it to be
 
 ### Project Structure
 
@@ -151,7 +151,7 @@ print("Hello, World!")
 ## Community/Contributions
 
 By reading this, you’re currently contributing to this work, congrats! But you probably don’t want the worldwide community of programmers and devs to stop at reading your README. DON’T:
-'Contributions are welcome!'
+`Contributions are welcome!`
 
 This is the place for you to outline a procedure such as:
 
@@ -163,14 +163,17 @@ This is the place for you to outline a procedure such as:
 5. Open a Pull Request
 ```
 
-or
-Your repo’s Discussions tab (HYPERLINKED, OF COURSE)
-Creating Issues (another link) for discussing extended development
+or to direct people towards
+
+- Your repo’s Discussions tab (HYPERLINKED, OF COURSE)
+- Creating Issues (another link) for discussing extended development
+
 so that people can help contribute to the further development of this project, cause more features never hurt anybody (those definitely aren’t famous last words).
 
 ## License
 
 For anyone to use your project, it has to have a license attached. Without one, nobody can legally use your repo, even if it is public. This is where you attach that info, and ideally [link](https://choosealicense.com/) (yes, another one) to the site outlining that license, or at least point them to the license file attached within your repo.
+This project is distributed under the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. See [LICENSE](LICENSE.md) for more info.
 
 ## Acknowledgements
 
