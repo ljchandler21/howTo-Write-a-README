@@ -7,7 +7,7 @@
 ## Table of Contents
 
 <details open> 
-<summary>A ToC can be optional based on ReadMe length</summary>
+<summary>A Table of Contents can be optional based on your README's length</summary>
 
 - [Overview](#overview)
 - [Highlights](#highlights)
@@ -19,7 +19,7 @@
   - [Project Structure](#project-structure)
   - [API](#api)
   - [Important function calls](#important-function-calls)
-- [Community/Contributing](#community/contributions)
+- [Community/Contributing](#communitycontributions)
 - [License](#license)
 - [Citations](#acknowledgements)
 </details>
@@ -121,9 +121,9 @@ _Play it by ear with these. A file tree can be helpful but good organization/ lo
 This is where/
 ├── You can outline/
 │   |   ├── theOverallFileStructure.js
-│   └────── ofYourProject.css
-├── Typically including/
-├── but not limited to/
+│   └────── ofYourProject.html
+├── Typically including.txt
+├── but not limited to.md
 ├── client/
 │   ├── src/
 |   ├── tests/
@@ -173,17 +173,18 @@ so that people can help contribute to the further development of this project, c
 ## License
 
 For anyone to use your project, it has to have a license attached. Without one, nobody can legally use your repo, even if it is public. This is where you attach that info, and ideally [link](https://choosealicense.com/) (yes, another one) to the site outlining that license, or at least point them to the license file attached within your repo.
+
 This project is distributed under the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. See [LICENSE](LICENSE.md) for more info.
 
 ## Acknowledgements
 
 This is where you might list resources you found helpful and want, or need, to give credit to. In my case, these are some of the repos I found helpful as examples to synthesize this guide from:
 
-- https://github.com/gyroflow/gyroflow
-- https://github.com/oven-sh/bun
-- https://github.com/rustdesk/rustdesk
-- https://github.com/argosopentech/argos-translate
-- https://www.reddit.com/r/learnprogramming/comments/vxfku6/how_to_write_a_readme/
-- https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
-- https://github.com/othneildrew/Best-README-Template
-- https://github.com/banesullivan/README?tab=readme-ov-file
+- [Gyroflow|Gyroflow|Github](https://github.com/gyroflow/gyroflow)
+- [Oven-sh|Bun|Github](https://github.com/oven-sh/bun)
+- [RustDesk|RustDesk|Github](https://github.com/rustdesk/rustdesk)
+- [ArgoSpenTech|Argos-Translate|Github](https://github.com/argosopentech/argos-translate)
+- [[deleted]|How to Write a Readme|r/learnprogramming](https://www.reddit.com/r/learnprogramming/comments/vxfku6/how_to_write_a_readme/)
+- [Akash|A Beginners Guide to writing a Kickass README|Medium](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
+- [Othneildrew|Best README Template|Github](https://github.com/othneildrew/Best-README-Template)
+- [BaneSullivan|README|Github](https://github.com/banesullivan/README?tab=readme-ov-file)
