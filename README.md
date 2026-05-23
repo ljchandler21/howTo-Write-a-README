@@ -66,9 +66,9 @@ npm install -g efg	# A second dependency you rely on
 
 #### Installation
 
-Your software supports [insert OS’s supported].
+Your software supports [*insert OS’s supported*].
 
-> Linux x64? Linux arm64? macOs x64 and/or Apple Silicon? Windows x64 and/or arm64?
+> Linux x64? Linux arm64? macOS x64 and/or Apple Silicon? Windows x64 and/or arm64?
 
 A step-by-step walkthrough is your best friend here
 
@@ -180,10 +180,15 @@ This project is distributed under the [CC BY-NC-ND 4.0](https://creativecommons.
 
 This is where you might list resources you found helpful and want, or need, to give credit to. In my case, these are some of the repos I found helpful as examples to synthesize this guide from:
 
+#### Examples
+
 - [Gyroflow|Gyroflow|Github](https://github.com/gyroflow/gyroflow)
 - [Oven-sh|Bun|Github](https://github.com/oven-sh/bun)
 - [RustDesk|RustDesk|Github](https://github.com/rustdesk/rustdesk)
 - [ArgoSpenTech|Argos-Translate|Github](https://github.com/argosopentech/argos-translate)
+
+#### Sources
+
 - [[deleted]|How to Write a Readme|r/learnprogramming](https://www.reddit.com/r/learnprogramming/comments/vxfku6/how_to_write_a_readme/)
 - [Akash|A Beginners Guide to writing a Kickass README|Medium](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 - [Othneildrew|Best README Template|Github](https://github.com/othneildrew/Best-README-Template)
