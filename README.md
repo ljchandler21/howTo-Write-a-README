@@ -48,9 +48,11 @@ Some main takeaways of this guide:
 
 ## Usage
 
+> What does it look like for someone to get your project running?
+
 ### Getting Started
 
-Here is where you outline everything necessary for the user or contributor to install, set up, and run your project, including any prerequisites that need to be installed. Here, examples and blocks of code are king over trying to explain in words
+Here is where you outline everything necessary for a user to install, set up, and run your project, including any prerequisites that need to be installed. Here, examples and blocks of code are king over trying to explain in words
 
 #### Prerequisites
 
@@ -113,6 +115,8 @@ Explain the start arguments:
 
 ### Project Structure
 
+Here is where you provide more detailed information about the peoject for contributors to help with. These are typically things like implementation details that would scare off a more surface user, while aiding further development or interaction.
+
 _Play it by ear with these. A file tree can be helpful but good organization/ low complexity can reduce the need, and if you dont expose an API then there obviously isn’t anything to list there._
 
 #### File Structure
@@ -138,7 +142,31 @@ This is where/
 
 #### API
 
-If your project exposes an API, that is the interface through which others use your system without a GUI, or how another dev can integrate into their project, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
+Your project's API is the language that lets other softwares can interact with it while not having to actually call the direct methods that your project contains. As such, it's important to lay out whatever API your project does have/use, so that other people can build your sfotware into their already-existing stack, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
+
+Here is an example of what that could look like, pulled from a project of my own:
+
+The server provides the following REST endpoints: requests are routed to these endpoints in `server/src/app.ts`.
+
+#### `/api/user`
+
+| Endpoint     | Method | Description                           |
+| ------------ | ------ | ------------------------------------- |
+| `/list`      | POST   | Get details of a list of users        |
+| `/login`     | POST   | Validate username/password entry      |
+| `/signup`    | POST   | Create a new user                     |
+| `/:username` | POST   | Update user's displayname or password |
+| `/:username` | GET    | Get information about a user          |
+
+#### `/api/friend`
+
+| Method | Route                 | Purpose                                                            |
+| ------ | --------------------- | ------------------------------------------------------------------ |
+| POST   | `/request`            | Send a friend request (`{ auth, payload: {toUsername} }`)          |
+| POST   | `/respond`            | Accept/reject a request (`{ auth, payload: {requestId, action} }`) |
+| POST   | `/remove`             | Remove a friend (`{ auth, payload: {friendUsername} }`)            |
+| GET    | `/list/:username`     | Get user's accepted friends list                                   |
+| GET    | `/requests/:username` | Get pending incoming/outgoing requests                             |
 
 #### Important function calls
 
@@ -146,6 +174,36 @@ Similarly to the API calls, if your service is operated through the user’s own
 
 ```py
 print("Hello, World!")
+```
+
+### Examples
+
+It can be helpful to future developers if you give an example of how to add a feature. this can typically be done via the addition of a code block showing very generic implementation, something that could follow along the lines of:
+
+```java
+class MyNewClass implements IParentInterface extends BehaviorType {
+  private int field1;
+  private char field2;
+  private boolean field3;
+
+  public MyNewClass (int arg1, char arg2, boolean arg3) {
+    this.field1 = arg1;
+    this.field2 = arg2;
+    this.field3 = arg3;
+  }
+
+  private void methodOne(int val1) {
+    doSomethingWithVal1;
+  }
+
+  public bool method2(char val2) {
+    if (val2.equals('a'))
+    {
+      return true;
+    }
+    return false;
+  }
+}
 ```
 
 ## Community/Contributions
