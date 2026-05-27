@@ -142,7 +142,7 @@ This is where/
 
 #### API
 
-Your project's API is the language that lets other software can interact with it while not having to directly call the functions or methods that your project contains. As such, it's important to lay out whatever critical API your project does have/use, so that other people can build your software into their already-existing stack, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
+Your project's API is the language that lets other software interact with it while not having to directly call the functions or methods that your project contains. As such, it's important to lay out whatever critical API your project does have/use, so that other people can build your software into their already-existing stack, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
 
 Here is an example of what that could look like, pulled from a project of my own:
 
