@@ -146,6 +146,8 @@ Your project's API is the language that lets other softwares can interact with i
 
 Here is an example of what that could look like, pulled from a project of my own:
 
+<i>
+
 The server provides the following REST endpoints: requests are routed to these endpoints in `server/src/app.ts`.
 
 #### `/api/user`
@@ -167,6 +169,8 @@ The server provides the following REST endpoints: requests are routed to these e
 | POST   | `/remove`             | Remove a friend (`{ auth, payload: {friendUsername} }`)            |
 | GET    | `/list/:username`     | Get user's accepted friends list                                   |
 | GET    | `/requests/:username` | Get pending incoming/outgoing requests                             |
+
+</i>
 
 #### Important function calls
 
