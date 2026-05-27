@@ -2,7 +2,7 @@
 
 > A software engineer’s guide to writing like a human person
 
-\*\*iconstack here
+[![Canvas](https://img.shields.io/badge/Canvas-E72429?logo=canvas&logoColor=white)](https://northeastern.instructure.com/courses/254655) [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ljchandler21/howTo-Write-a-README) [![License](https://img.shields.io/badge/CC%20BY--NC--ND%204.0-ED592F?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) [![Markdown](https://img.shields.io/badge/markdown-000000?logo=markdown&logoColor=white)](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet) [![Spotify](https://img.shields.io/badge/Spotify-1ED760?logo=spotify&logoColor=white)](https://tinyurl.com/engw-feedback)
 
 ## Table of Contents
 
