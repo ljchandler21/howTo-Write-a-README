@@ -142,7 +142,7 @@ This is where/
 
 #### API
 
-Your project's API is the language that lets other softwares can interact with it while not having to actually call the direct methods that your project contains. As such, it's important to lay out whatever API your project does have/use, so that other people can build your sfotware into their already-existing stack, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
+Your project's API is the language that lets other softwares can interact with it while not having to directly call the functions or methods that your project contains. As such, it's important to lay out whatever critical API your project does have/use, so that other people can build your sfotware into their already-existing stack, which is what you want at the end of the day. If you’re creating an API-based service, you should at least include some of the foundational calls here.
 
 Here is an example of what that could look like, pulled from a project of my own:
 
@@ -208,10 +208,9 @@ class MyNewClass implements IParentInterface extends BehaviorType {
 
 ## Community/Contributions
 
-By reading this, you’re currently contributing to this work, congrats! But you probably don’t want the worldwide community of programmers and devs to stop at reading your README. DON’T:
-`Contributions are welcome!`
+By reading this, you’re currently contributing to this work, congrats! But you probably don’t want the worldwide community of programmers and devs to stop at reading your README. When telling other people they can contribute, a simple `Contributions are welcome!` is what you shouldn't say.
 
-This is the place for you to outline a procedure such as:
+Instead, this is the place for you to outline a procedure such as:
 
 ```
 1. Fork the project
