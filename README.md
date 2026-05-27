@@ -180,36 +180,6 @@ Similarly to the API calls, if your service is operated through the user’s own
 print("Hello, World!")
 ```
 
-### Examples
-
-It can be helpful to future developers if you give an example of how to add a feature. this can typically be done via the addition of a code block showing very generic implementation, something that could follow along the lines of:
-
-```java
-class MyNewClass implements IParentInterface extends BehaviorType {
-  private int field1;
-  private char field2;
-  private boolean field3;
-
-  public MyNewClass (int arg1, char arg2, boolean arg3) {
-    this.field1 = arg1;
-    this.field2 = arg2;
-    this.field3 = arg3;
-  }
-
-  private void methodOne(int val1) {
-    doSomethingWithVal1;
-  }
-
-  public bool method2(char val2) {
-    if (val2.equals('a'))
-    {
-      return true;
-    }
-    return false;
-  }
-}
-```
-
 ## Community/Contributions
 
 By reading this, you’re currently contributing to this work, congrats! But you probably don’t want the worldwide community of programmers and devs to stop at reading your README. When telling other people they can contribute, a simple `Contributions are welcome!` is what you shouldn't say.
